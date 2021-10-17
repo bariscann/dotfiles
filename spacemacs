@@ -48,6 +48,7 @@ This function should only modify configuration layer settings."
      multiple-cursors
      (org :variables
           ;; org-agenda-include-diary t
+          org-startup-truncated nil
           org-todo-dependencies-strategy 'naive-auto
           org-enable-notifications t
           org-start-notification-daemon-on-startup t
